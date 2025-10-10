@@ -18,13 +18,13 @@ minify:
 menu:
   main:
     - name: Posts
-      url: /
+      url: "."
       weight: 10
     - name: Archive
-      url: /archives/
+      url: "archives/"
       weight: 20
     - name: Search
-      url: /search/
+      url: "search/"
       weight: 30
 
 params:
