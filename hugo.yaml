@@ -1,0 +1,55 @@
+baseURL: https://lestergong.github.io/blog/
+languageCode: en-us
+title: Gong'Log
+theme: ["PaperMod"]
+
+canonifyURLs: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - name: Posts
+      url: /
+      weight: 10
+    - name: Archive
+      url: /archives/
+      weight: 20
+    - name: Search
+      url: /search/
+      weight: 30
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: 👋 Welcome to Gong'Log
+    Content: |
+      Hi there! I'm Lisheng Gong
+      - 🎓 I'm currently pursuing my Master's degree in **Artificial Intelligence** at **Beijing University of Posts and Telecommunications (BUPT)**.
+      - 💡 This blog is a space where I share my **learning notes**, **research insights**, and **paper summaries** — everything that helps me (and hopefully you!) explore the fascinating world of AI 🤖.
+      - 🧠 From machine learning algorithms to deep learning architectures and beyond, I aim to make complex ideas a little clearer and learning a little more enjoyable.
+      - 📚 Stay tuned for fresh thoughts, summaries, and discussions on the latest in AI research and technology!
+
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/LesterGong"
+    - name: "OpenReview"
+      url: "https://openreview.net/profile?id=%7ELisheng_Gong1"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
