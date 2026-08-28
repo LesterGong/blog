@@ -1,5 +1,5 @@
 baseURL: https://lestergong.github.io/blog/
-languageCode: en-us
+locale: en-US
 title: Gong'Log
 theme: ["PaperMod"]
 
@@ -28,6 +28,7 @@ menu:
       weight: 30
 
 params:
+  author: Lisheng Gong
   defaultTheme: auto
   ShowReadingTime: true
   ShowToc: true
